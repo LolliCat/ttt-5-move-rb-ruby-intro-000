@@ -6,7 +6,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 # Code your CLI Here
 puts "Welcome to Tic Tac Toe!"
-
+puts" what character you want? X/O"
+char = gets
 puts "What position would you like to move to? Pick from 1-9."
 users_move = gets
 index = input_to_index(users_move)
