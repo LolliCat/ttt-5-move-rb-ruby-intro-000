@@ -11,5 +11,5 @@ char = gets
 puts "What position would you like to move to? Pick from 1-9."
 users_move = gets
 index = input_to_index(users_move)
-move(board, index)
+move(board, index, char)
 display_board(board)
